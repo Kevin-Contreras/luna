@@ -1,0 +1,1245 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background:#000;
+}
+nav {
+    /*
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+    background: #111;
+
+ */
+ 
+padding: 50px;  
+
+}
+.ss{
+    display: inline-block;
+}
+nav ul{
+    padding: 0;
+   
+    
+ 
+ }
+ nav ul li{
+    float: right;
+    display: inline;
+    margin-top: -10px;
+    margin-right: 40px;
+   
+ 
+    
+    
+}
+nav ul li button{
+   
+    background: transparent;
+   border: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+ 
+  
+
+    font-family: 'Cormorant Garamond', serif;
+}
+nav ul li button:hover{
+    color:rgb(44, 207, 11);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    
+}
+
+
+.movil{
+ display: none;   
+}
+.sub a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.sub a:hover{
+    color: rgb(88, 221, 11);
+    
+}
+
+.titulo{
+   float: left;
+   margin: 30px;
+   color:white;
+   list-style: none;
+   font-family: 'Creepster', cursive;
+   font-size: 30px;
+}
+.titulo a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+.titulo a:hover{
+    
+
+    color: rgb(88, 221, 11);
+}
+h1{
+    font-family: 'Creepster', cursive;
+    font-size: 400px;
+}
+.div1{
+    display: inline-block;
+    position: absolute;
+
+}
+.texto2{
+display: inline-block;
+width: 900px;
+height: 700px;
+margin: 0;
+left: 48%;
+position: relative;
+}
+.img1{
+    width: 800px;
+    height: 900px;
+    position: absolute;
+   
+   
+}
+.titulo1{
+    display: inline-block;
+    margin-left: 60px;
+    position: relative;
+}
+.img2{
+    
+position: absolute;
+display: inline-block;
+}
+.imga2{
+    height: 750px;
+    position: absolute;
+    top: 100px;
+    left: 65%;
+    
+}
+.sub{
+    float: right;
+    display: inline-block;
+    margin: 40px;
+    color:white;
+   
+   
+}
+.contendorLetra{
+    width: 100%;
+    position: relative;
+    
+}
+.small1{
+ height: 320px;
+ position: relative;
+
+ transition: all 0.3s ease-in-out;
+}
+.small{
+    color: white;
+    position: relative;
+   
+    transition: all 0.3s ease-in-out;
+   }
+.small2{
+   
+    height: 320px;
+
+    transition: all 0.3s ease-in-out;
+    position: relative;
+   }
+   .small22{
+    color: white;
+   
+    transition: all 0.3s ease-in-out;
+    position: relative;
+   }
+.contenedor{
+    background: #5214ff;
+    width: 100vw;
+    height: 100%;
+
+padding-top: 100px;
+    
+  
+}
+
+.parrafo{
+    color: azure;
+    font-size: 30px;
+    position: relative;
+    height: 320px;
+    width: 400px;
+    transition: all 0.5s ease-in-out;
+}
+
+.work{
+    transform: rotate(-10deg);
+    width: 1500px;
+    transition: all 0.6s ease-in-out;
+}
+
+.div2{
+ 
+transition: all 1s ease-in-out;
+position: relative;
+width: 465px;
+left: 75%; 
+ 
+}
+.principalTrabajo{
+    padding-left: 4%;
+}
+h2{
+    font-family: 'Creepster', cursive;
+    font-size: 200px;
+    position: relative;
+    top: -400px;
+}
+.img3{
+   position: relative;
+   border:  10px solid;
+   border-color: white;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+   transition: all 1s ease-in-out;
+   left: 0; 
+  
+}
+.anima{
+    transition: all 0.5s ease-in-out;
+    padding-left: 4%;
+}
+.s1{
+    padding-left: 4%;
+width: 600px;
+left: 50%;
+top: -300px;
+height: 950px;
+position: relative;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+
+}
+.s1:hover{
+    top: -350px;
+}
+.s2:hover{
+    top: -950px;
+}
+.s3:hover{
+    top: -1150px;
+}
+.imgs{
+    position: absolute;
+    top: 5400px;
+    width: 600px;
+    height: 900px;
+   
+    left: 15%;
+    
+
+}
+.finalTitulo{
+    position: absolute;
+    top: 5500px;
+    width: 600px;
+    height: 900px;
+ 
+    left: 50%;
+}
+.finalTitulo h1{
+    top: 20px;
+    font-size: 270px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.imgs img{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+}
+.s2{
+    padding-left: 4%;
+    width: 600px;
+    height: 950px;
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    top: -900px;
+    }
+    .s3{
+        padding-left: 4%;
+        width: 600px;
+        height: 950px;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        width: 550px;
+        position: relative;
+        left: 50%;
+        top: -1100px;
+
+        }
+.tatto{
+display: inline-block;
+position: relative;
+}
+.tatto h2{
+   left: 20px;
+    }
+.tatto2 h2{
+position: static;
+text-align: center;
+font-size: 100px;
+
+
+}
+
+.tatto2 img{
+    width: 550px;
+    height: 760px;
+
+    }
+.imgTatto{
+    width: 650px;
+    height: 860px;
+   
+    position: relative;
+    box-shadow: 10px 10px 10px #1f1f1f;
+
+}
+
+footer{
+ 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+
+    padding: 5px;
+
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+
+
+
+
+/*responsive*/
+
+@media (max-width:1700px) {
+    .imga2{
+        left: 650px;
+        width: 250px;
+
+    }
+    .img1{
+        width: 700px;
+    }
+    .imgs{
+        height: 500px;
+    
+       
+       }
+       .dd{
+        height: 500px;
+        width: 100px;
+       }
+       .finalTitulo{
+
+top: 5300px;
+font-size: 20px;
+       }
+       .final{
+        font-size: 20px;
+       }
+       .texto2{
+        width: 450px;
+    }
+        .texto2 h1{
+           width: 450px;
+           font-size: 400px;
+    
+        }
+}
+
+@media (max-width:1800px) {
+    .imga2{
+        left: 1000px;
+
+    }
+    .titulo1 h1{
+        width: 150px;
+        font-size: 370px;
+    }
+    
+.texto2{
+    width: 700px;
+}
+    .texto2 h1{
+       width: 150px;
+       font-size: 370px;
+    }
+    .div2{
+        width: 300px;
+        
+    }
+    .finalTitulo{
+        height: 800px;
+        top: 5500px;
+    }
+    .img3{
+        width: 300px;
+
+    }
+
+       .imgs{
+        height: 800px;
+        top: 5500px;
+        right:  12%;
+       }
+       .imgs img {
+        height: 900px;
+        right:  12%;
+       }
+}
+@media (max-width:1500px) {
+    .imga2{
+        left: 800px;
+        width: 300px;
+
+    }
+
+    .texto2{
+        width: 700px;
+    }
+        .texto2 h1{
+           width: 150px;
+           font-size: 300px;
+        }
+        .titulo1 h1{
+            width: 150px;
+            font-size: 300px;
+        }
+        .img1{
+            width: 600px;
+        }
+        
+   .imgs{
+    top: 5400px;
+   left: 10%;
+    width: 500px;
+    margin-left: 2%;
+    height: 500px;
+   
+   }
+   .texto2 h1{
+    width: 450px;
+    font-size: 300px;
+
+ }
+   .imgs img{
+    width: 500px;
+
+    text-align: center;
+    right:  20%;
+   }
+   .finalTitulo{
+    top: 5400px;
+    width: 420px;
+    right:  12%;
+   }
+   .finalTitulo h1{
+    font-size: 200px;
+   }
+   .work{
+    font-size: 300px;
+    width: 300px;
+   }
+   .principalTrabajo{
+    width: 200px;
+    
+   }
+   .tatto h2{
+    font-size:150px ;
+   }
+}
+
+@media (max-width:1370px) {
+  
+    .s2:hover{
+        top: -450px;
+    }
+    .s3:hover{
+        top: -420px;
+    }
+    .imga2{
+        left: 700px;
+        width: 300px;
+
+    }
+    .texto2{
+        width: 400px;
+    }
+       
+    .texto2 h1{
+        width: 350px;
+        font-size: 300px;
+    
+     }
+     .div2 img{
+        width: 250px;
+        top: 20px;
+        
+    }
+    .div2{
+        top: 20px;
+        width: 250px;
+    }
+    .imgs{
+    
+    top:3900px;
+    left: 0%;
+       display: inline-block;
+height: 500px;
+       
+       }
+       .img3{
+        left: -20px;
+       }
+       .imgs img{
+    
+        top: 0;
+        display: inline-block;
+        left: 1%;
+
+       }
+       .finalTitulo{
+        display: inline-block;
+        left: 0;
+    position: static;
+    height: 500px;
+    top: 0;
+margin-top: -50px;
+    margin:auto ;
+    margin-left: 50%;
+       }
+       .finalTitulo h1{
+     
+        left: 0;
+        top: 0;
+ position: static;
+       }
+.imgTatto{
+    width: 500px;
+    height: 700px;
+
+}
+.tatto h2{
+    font-size:100px ;
+   }
+   .s1{
+    width: 400px;
+    height: 500px;
+    top: -300px;
+
+   }
+   .s1 img{
+    width: 400px;
+    height: 500px;
+   }
+   .s2{
+    width: 400px;
+    height: 500px;
+    top: -350px;
+
+   }
+   .s2 img{
+    width: 400px;
+    height: 500px;
+    
+   }
+   .s3{
+    width: 400px;
+    height: 500px;
+    top: -600px;
+
+   }
+   .s3 img{
+    width: 400px;
+    height: 500px;
+    
+    
+   }
+    }
+    @media (max-width:1220px) {
+        .imgs{
+            top:3750px;
+        }
+        .s1{
+            width: 300px;
+            height: 500px;
+            top: -300px;
+            margin-left: 20px;
+        
+           }
+           .s1 img{
+            width: 300px;
+            height: 500px;
+           }
+           .s2{
+            width: 300px;
+            height: 500px;
+            top: -350px;
+        
+           }
+           .s2 img{
+            width: 300px;
+            height: 500px;
+            
+           }
+           .s3{
+            width: 300px;
+            height: 500px;
+            top: -350px;
+        
+           }
+           .s3 img{
+            width: 300px;
+            height: 500px;
+            
+           }
+        .texto2 h1{
+            width: 350px;
+            font-size: 200px;
+            height: 200px;
+        
+         }
+         .titulo1 h1{
+            width: 350px;
+            font-size: 200px;
+            height: 200px;
+        
+         }
+        .parrafo{
+            margin-top: 30px;
+        }
+        .imga2{
+            left: 300px;
+            width: 280px;
+            height: 500px;
+           
+    
+        }
+        .img1{
+           
+            width: 430px;
+           
+    
+        }
+        .div2{
+            left: -50px;
+            margin-left: 55%;
+        }
+        .img3{
+         
+           
+           }
+    }
+    @media (max-width:1000px) {
+        .work{
+            font-size: 250px;
+        }
+  
+        .imga2{
+            left: 100px;
+            width: 200px;
+            height: 300px;
+    
+        }
+        .img1{
+            width: 300px;
+            height: 600px;
+            left: 20px;
+        }
+        .texto2{
+            width: 350px;
+        }
+           
+        .texto2 h1{
+            width: 200px;
+            height: 120px;
+            font-size: 150px;
+        
+         }
+         .titulo1 h1{
+            width: 350px;
+            font-size: 150px;
+            height: 150px;
+        
+         }
+         .div2 img{
+            width: 220px;
+            top: -100px;
+            
+        }
+        .div2{
+            top: 20px;
+            width: 150px;
+        }
+        .parrafo{
+            margin: 20% 0% 0% 0%;
+            width: 300px;
+            font-size: 20px;
+           
+        }
+        .tatto2 h2{
+            font-size: 50px;
+        }
+        .imgs{
+        
+        top:3500px;
+        right: 50px;
+           display: inline-block;
+    height: 500px;
+           
+           }
+           .img3{
+            left: -20px;
+           }
+           .imgs img{
+        
+           
+            display: inline-block;
+            right: 100px;
+    
+           }
+
+           .finalTitulo{
+            display: inline-block;
+            left: 0;
+        position: static;
+        width: 150px;
+        height: 600px;
+        top: 0;
+        
+    
+        margin:auto ;
+        margin-left: 60%;
+           }
+           .finalTitulo h1{
+         font-size: 100px;
+            left: 0;
+            top: 0;
+     position: static;
+           }
+    .imgTatto{
+        width: 350px;
+        height: 700px;
+    
+    }
+    .tatto h2{
+        font-size:80px ;
+       }
+
+       .s3{
+        width: 300px;
+        height: 500px;
+        top: -400px;
+    
+       }
+       .s3 img{
+        width: 300px;
+        height: 500px;
+        
+       }
+        }
+        @media (max-width:730px) {
+            .parrafo{
+               left: 70%;
+               margin: 15% 0% 0% 0%;
+            
+
+            }
+            .img2{
+                display: none;
+            }
+            .titulo1 h1{
+                height: 120px;
+            }
+            .div1{
+                display: none;
+            }
+            .div1 img{
+                display: none;
+            }
+            .texto2{
+            left: 8%;
+               
+            }
+            .div2{
+                top: -50px;
+            }
+            .s1{
+                width: 300px;
+                height: 500px;
+                top: 00px;
+                position: static;
+                margin: auto;
+                margin-bottom: 200px;
+                
+               }
+               .s1 img{
+                width: 300px;
+                height: 500px;
+               
+               }
+               .s2{
+                width: 300px;
+                height: 500px;
+                top: 0px;
+           
+                position: static;
+               
+                margin: auto;
+                margin-bottom: 200px;
+               }
+               .s2 img{
+                position: static;
+                margin: auto;
+          
+                
+               }
+               .s3{
+                position: static;
+                margin: auto;
+                margin-bottom: 200px;
+                width: 300px;
+                height: 500px;
+                top: 0px;
+        
+                position: static;
+            
+               }
+               .s3 img{
+                width: 300px;
+                height: 500px;
+                
+               }
+               .anima{
+                position: static;
+                width: 350px;
+                margin: auto;
+                margin-top: 50px;
+                margin-bottom: -100px;
+               }
+               .imgs{
+                top: 4500px;
+                width: 300px;
+               
+               }
+               .imgs img{
+                height: 600px;
+                text-align: left;
+                width: 300px;
+                
+               }
+               .finalTitulo{
+                margin-top:100px ;
+               }
+        }
+        @media (max-width:600px) {
+            .parrafo{
+                left: 35%;
+                margin: 15% 0% 0% 0%;
+             
+ 
+             }
+             .work{
+                font-size: 200px;
+             }
+             .div2{
+                position: static;
+
+                margin: auto;
+                margin-bottom: -40px;
+             }
+           
+        }
+        @media (max-width:550px) {
+    
+            .final{
+                margin-top: 100px;
+            }
+               .imgs{
+                top: 4400px;
+                width: 200px;
+               
+               }
+               .imgs img{
+                height: 600px;
+                text-align: left;
+                width: 200px;
+                
+               }
+               .finalTitulo{
+                margin-left: 50%;
+                padding:3px;
+            
+               }
+               .finalTitulo h1{
+                font-size: 75px;
+               }
+              
+            }
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+}
+
+@media (max-width:480px) {
+    .work{
+        font-size:150px ;
+    }
+    .texto2 h1{
+        font-size: 130px;
+    }
+    .titulo1 h1{
+        font-size: 130px;
+    }
+    .parrafo{
+        
+        position: static;
+       
+        margin: auto;
+        margin: 25% 0% 0% 0%;
+
+    }
+    }
+   
+    @media (max-width:412px) {
+        .texto2{
+            width: 300px;
+        }
+        .texto2 h1{
+            font-size: 100px;
+            height: 90px;
+
+            width:200px;
+        }
+        .imgTatto{
+            width: 300px;
+            height: 500px;
+            
+        }
+        .anima{
+            text-align: center;
+        }
+        .tatto h2{
+            font-size: 70px;
+        }
+     .titulo1{
+        width: 200px;
+     }
+        .titulo1 h1{
+            font-size: 100px;
+            height: 90px;
+            width:200px;
+        }
+        .final{
+            margin-top: 100px;
+        }
+           .imgs{
+            top: 4000px;
+            width: 200px;
+           
+           }
+           .imgs img{
+            height: 600px;
+            text-align: left;
+            width: 200px;
+            
+           }
+           .finalTitulo{
+            margin-left: 50%;
+            padding:3px;
+        
+           }
+           .finalTitulo h1{
+            font-size: 75px;
+           }
+        }
+
+    @media (max-width:365px) {
+        #boton1{
+            margin-left: 0px;
+        }
+        .s1{
+            width: 200px;
+            height: 400px;
+            top: 00px;
+       
+            
+           }
+           .s1 img{
+            width: 200px;
+            height: 400px;
+           
+           }
+           .s2{
+            width: 200px;
+            height: 400px;
+            top: 0px;
+       
+            
+           }
+           .s2 img{
+            width: 200px;
+            height: 400px;
+            position: static;
+            margin: auto;
+      
+            
+           }
+           .s3{
+            position: static;
+            margin: auto;
+            margin-bottom: 200px;
+            width: 200px;
+            height: 400px;
+            top: 0px;
+    
+            position: static;
+        
+           }
+           .s3 img{
+            width: 200px;
+            height: 400px;
+            
+           }
+       .imgTatto{
+        width: 200px;
+        height: 400px;
+       }
+        .texto2{
+            width: 300px;
+        }
+        .texto2 h1{
+            font-size: 90px;
+            height: 90px;
+
+            width:200px;
+        }
+        .imgs{
+            top: 3620px;
+            width: 200px;
+           
+           }
+           .anima{
+            width: 300px;
+           }
+.tatto h2{
+    
+    font-size: 40px;
+
+}
+        .titulo1 h1{
+            font-size: 90px;
+            height: 90px;
+            width:200px;
+        }
+    }
+    @media (max-width:630px) {
+     
+     
+        nav ul li button{
+           float: none;
+          
+           margin: auto;
+           font-family: 'Creepster', cursive;
+           
+        }
+        nav ul li {
+            float: none;
+           
+        }
+  
+.boton{
+    margin-top: 20px;
+}
+     
+        .escritorio{
+            display: none;
+            
+           
+        }
+    
+        .movil{
+            display: inline;
+        }
+   
+
+
+    }
+
+    .container {
+        cursor: pointer;
+        float: right;
+       
+        position: absolute;
+ 
+       
+      }
+   
+    .bar1 {
+        width: 35px;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+    
+        transition: 0.4s;
+      }
+       .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+    
+    
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
