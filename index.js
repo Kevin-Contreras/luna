@@ -46,7 +46,7 @@ const tl = gsap.timeline({
     scrollTrigger:{
         trigger:".titulo1",
         pin:true,
-        markers:true,
+        markers:false,
         start:"top top",
         end:"100% 100%",
         scrub:true
@@ -58,7 +58,7 @@ const tl2 = gsap.timeline({
     scrollTrigger:{
         trigger:".titulo2",
         pin:true,
-        markers:true,
+        markers:false,
         start:"top top",
         end:"100% 100%",
         scrub:true
@@ -70,7 +70,7 @@ const tl3 = gsap.timeline({
     scrollTrigger:{
         trigger:".textoEsquina",
         pin:true,
-        markers:true,
+        markers:false,
         start:"top top",
         end:"100% 100%",
         scrub:true
@@ -82,7 +82,7 @@ const tl8 = gsap.timeline({
     scrollTrigger:{
         trigger:".img2",
         pin:true,
-        markers:true,
+        markers:false,
         start:"top top",
         end:"100% 100%",
         scrub:true
@@ -94,7 +94,7 @@ const tl4 = gsap.timeline({
     scrollTrigger:{
         trigger:".div2",
         pin:true,
-        markers:true,
+        markers:false,
         start:"top top",
         end:"100% 100%",
         scrub:true
@@ -106,7 +106,7 @@ const tl5 = gsap.timeline({
     scrollTrigger:{
         trigger:".principalTrabajo",
         pin:true,
-        markers:true,
+        markers:false,
         start:"top top",
         end:"100% 100%",
         scrub:true
@@ -118,7 +118,7 @@ const tl6 = gsap.timeline({
     scrollTrigger:{
         trigger:".imgs",
         pin:true,
-        markers:true,
+        markers:false,
         start:"top top",
         end:"100% 100%",
         scrub:true
@@ -130,7 +130,7 @@ const tl7 = gsap.timeline({
     scrollTrigger:{
         trigger:".finalTitulo",
         pin:true,
-        markers:true,
+        markers:false,
         start:"top top",
         end:"100% 100%",
         scrub:true
@@ -142,7 +142,7 @@ const tl9 = gsap.timeline({
     scrollTrigger:{
         trigger:".div1",
         pin:true,
-        markers:true,
+        markers:false,
         start:"top top",
         end:"100% 100%",
         scrub:true
